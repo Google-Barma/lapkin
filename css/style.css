@@ -96,6 +96,8 @@ img {
   color: rgba(0, 0, 0, 0.702);
   line-height: 1.556;
   text-align: left;
+  margin: 0;
+  margin-bottom: 44px;
 }
 .text-area-block {
   font-size: 16px;
@@ -103,8 +105,14 @@ img {
   color: rgba(0, 0, 0, 0.702);
   line-height: 1.751;
   text-align: left;
-  margin-bottom: 68px;
+  margin: 0;
   letter-spacing: 0.01em;
+}
+.text-area-block:first-of-type {
+  margin-bottom: 44px;
+}
+.text-area-block:last-of-type {
+  margin-bottom: 68px;
 }
 .button {
   display: inline-block;
@@ -119,4 +127,54 @@ img {
   width: 202px;
   height: 46px;
   padding-top: 10px;
+}
+.working-container {
+  background-color: #f6f6f6;
+  padding-top: 130px;
+}
+.working-title {
+  margin: 0;
+  font-size: 40px;
+  font-family: 'Montserrat';
+  color: rgb(0, 0, 0);
+  line-height: 0.7;
+  text-align: center;
+  margin-bottom: 42px;
+}
+.working-text {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: rgba(0, 0, 0, 0.702);
+  line-height: 1.751;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 62px;
+}
+.working-box {
+  width: 282px;
+  height: 270px;
+  float: left;
+}
+.working-box:not(:last-of-type) {
+  margin-right: 14px;
+}
+.blue {
+  background-color: #10c6fc;
+}
+.violet {
+  background-color: #835aeb;
+}
+.cyan {
+  background-color: #002453;
+}
+.red {
+  background-color: #ff2b4a;
+}
+.box-text {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.751;
+  text-align: center;
 }
